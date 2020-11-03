@@ -13,12 +13,12 @@ export const Button = styled.button`
   cursor: pointer;
   padding: 8px 16px;
   font-size: 1em;
-  background-color: #ed2186;
+  background-color: #4787ff;
   color: #fff;
-  border: 1px solid #af1e66;
-  
+  border: 1px solid #6347ff;
+
   &:hover {
-    background-color: #af1e66;
+    background-color: #6347ff;
   }
 
   ${props => props.variant === 'outline' && outlinedStyle}
